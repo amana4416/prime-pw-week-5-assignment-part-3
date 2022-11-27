@@ -35,5 +35,20 @@ console.log('This is my record collection:', collection);
     }
 
 // Test
-showCollection(collection);
+console.log(showCollection(collection));
 
+// Add a function named `findByArtist`
+function findByArtist(artist){
+    let found = [];
+    for (let i = 0; i < collection.length; i++) {
+        if (collection[i].albumArtist === artist) {
+            found.push(collection[i]); 
+        } else 
+    
+    return found;
+}
+}
+
+// Test 
+console.log('Find a Taylor Swift album:', findByArtist('Taylor Swift'));
+console.log('Return an empty array:', findByArtist('Zayn'));
