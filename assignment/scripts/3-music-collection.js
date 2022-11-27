@@ -26,3 +26,14 @@ console.log('Add Take Care by Drake to the collection:', addToCollection('Take C
 console.log('This is my record collection:', collection);
 
 // Add a function named `showCollection
+    function showCollection(array){
+        console.log(('This is my album collection:'), array.length);
+        for (let i = 0; i < array.length; i++) {
+            console.log(`${array[i].albumTitle} by ${array[i].albumArtist}, published in ${array[i].albumYear}:`);
+        }
+        return "Do you like my collection?"
+    }
+
+// Test
+showCollection(collection);
+
