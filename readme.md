@@ -5,7 +5,7 @@ This week, we'll be exploring objects by creating an application to help maintai
 ## Topics Covered
 
 - objects
-- HTML & CSS
+- HTML & CSS 
 
 ## Part 3 - Building a Music Collection
 
